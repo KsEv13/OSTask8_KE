@@ -1,0 +1,5 @@
+Physical address: The address where something is physically located in the RAM chip.
+Virtual address: The address which the program uses to achieve its goals and the CPU uses 
+to retrieve the data. It is not real and is converted to a physical address via the MMU 
+(basically even the processor doesn't know about this conversion). May be outside of 
+physical RAM.

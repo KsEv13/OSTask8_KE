@@ -1,0 +1,4 @@
+Each page size is 8 KB which is 2^13 bits. Therefore the page offset is 
+equal to 13 bits. A mashine has 16-bit virtual addresses, this way 
+16-13=3 bits in the page number field. 2^3=8, hence 8 entries are 
+needed for a single-level linear page table.
